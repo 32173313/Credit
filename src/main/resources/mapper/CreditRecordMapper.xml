@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.reward_project.credit.mapper.CreditRecordMapper">
+
+    <resultMap id="CreditRecordResultMap" type="com.reward_project.credit.entity.CreditRecord">
+        <id property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="type" column="type"/>
+        <result property="subType" column="sub_type"/>
+        <result property="amount" column="amount"/>
+        <result property="status" column="status"/>
+        <result property="outBizNo" column="out_biz_no"/>
+        <result property="theme" column="theme"/>
+        <result property="prizeTime" column="prize_time"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <select id="addCreditRecord" resultMap="CreditRecordResultMap">
+        insert into `credit_record` (`user_id`, `type`,  `sub_type`, `amount`, `status`, `out_biz_no`, `theme`, `prize_time`, `create_time`, `update_time`)
+        values
+        (#{userId}, #{type}, #{subType}, #{amount}, #{status}, #{outBizNo}, #{theme}, now(), now(), now())
+    </select>
+
+    <!--  resultMap在上面定义后需要在下面select处引入  -->
+    <select id="queryByUserIdAndCreditTypeAndDate" resultMap="CreditRecordResultMap">
+        SELECT *
+        FROM `credit_record`
+        where `user_id` = #{userId} AND `type` = #{type} AND `sub_type` = #{subType} AND `prize_time` BETWEEN #{startTime} AND #{endTime}
+    </select>
+</mapper>

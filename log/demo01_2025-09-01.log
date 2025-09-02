@@ -1,0 +1,56 @@
+2025-09-01 15:18:11.841 [main] INFO  com.reward_project.credit.CreditApplication - Starting CreditApplication using Java 22.0.2 with PID 6332 (D:\grad1\project\Credit\target\classes started by 12943 in D:\grad1\project\Credit)
+2025-09-01 15:18:11.844 [main] INFO  com.reward_project.credit.CreditApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:18:13.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-09-01 15:18:13.021 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2025-09-01 15:18:13.028 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:18:13.028 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:18:13.089 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:18:13.090 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1200 ms
+2025-09-01 15:18:13.899 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2025-09-01 15:18:13.935 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-09-01 15:18:13.946 [main] INFO  com.reward_project.credit.CreditApplication - Started CreditApplication in 2.77 seconds (process running for 3.541)
+2025-09-01 15:18:47.700 [http-nio-8083-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:18:47.700 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:18:47.701 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-01 15:18:47.793 [http-nio-8083-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:18:48.067 [http-nio-8083-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@545b1a37
+2025-09-01 15:18:48.070 [http-nio-8083-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:18:49.518 [http-nio-8083-exec-2] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_1，已退还数量为1的credit
+2025-09-01 17:10:11.119 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m22s362ms948µs300ns).
+2025-09-01 18:10:45.894 [http-nio-8083-exec-4] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_1，已退还数量为1的credit
+2025-09-01 18:10:47.147 [http-nio-8083-exec-5] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_1，已退还数量为1的credit
+2025-09-01 18:11:02.493 [http-nio-8083-exec-6] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_1，已退还数量为1的credit
+2025-09-01 18:11:04.451 [http-nio-8083-exec-8] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:45.546 [http-nio-8083-exec-10] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:46.633 [http-nio-8083-exec-1] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:50.321 [http-nio-8083-exec-2] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:51.102 [http-nio-8083-exec-3] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:52.485 [http-nio-8083-exec-4] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:53.421 [http-nio-8083-exec-5] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:54.174 [http-nio-8083-exec-6] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:54.979 [http-nio-8083-exec-7] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:14:55.728 [http-nio-8083-exec-8] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:15:07.263 [http-nio-8083-exec-9] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 18:15:11.574 [http-nio-8083-exec-10] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_2，已退还数量为1的credit
+2025-09-01 19:58:56.891 [http-nio-8083-exec-4] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_1，已退还数量为1的credit
+2025-09-01 19:59:26.494 [http-nio-8083-exec-5] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_1，已退还数量为1的credit
+2025-09-01 19:59:27.394 [http-nio-8083-exec-6] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_1，已退还数量为1的credit
+2025-09-01 19:59:28.350 [http-nio-8083-exec-7] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-09-01_credit_credit01_1，已退还数量为1的credit
+2025-09-01 21:09:09.854 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m25s739ms123µs).
+2025-09-01 23:56:42.993 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 23:56:43.026 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 23:56:43.033 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 23:56:43.041 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 23:57:28.562 [main] INFO  com.reward_project.credit.CreditApplication - Starting CreditApplication using Java 22.0.2 with PID 30304 (D:\grad1\project\Credit\target\classes started by 12943 in D:\grad1\project\Credit)
+2025-09-01 23:57:28.565 [main] INFO  com.reward_project.credit.CreditApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 23:57:29.914 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-09-01 23:57:29.938 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2025-09-01 23:57:29.940 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 23:57:29.940 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 23:57:30.016 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 23:57:30.017 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1393 ms
+2025-09-01 23:57:30.907 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2025-09-01 23:57:30.938 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-09-01 23:57:30.948 [main] INFO  com.reward_project.credit.CreditApplication - Started CreditApplication in 3.036 seconds (process running for 3.876)
+2025-09-02 00:21:55.836 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-02 00:21:55.854 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete

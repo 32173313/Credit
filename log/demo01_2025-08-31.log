@@ -1,0 +1,58 @@
+2025-08-31 19:20:34.489 [main] INFO  com.reward_project.credit.CreditApplication - Starting CreditApplication using Java 22.0.2 with PID 22172 (D:\grad1\project\Credit\target\classes started by 12943 in D:\grad1\project\Credit)
+2025-08-31 19:20:34.492 [main] INFO  com.reward_project.credit.CreditApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-31 19:20:35.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-08-31 19:20:35.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2025-08-31 19:20:35.634 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-31 19:20:35.634 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-08-31 19:20:35.699 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-31 19:20:35.699 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1159 ms
+2025-08-31 19:20:36.486 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2025-08-31 19:20:36.520 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-08-31 19:20:36.531 [main] INFO  com.reward_project.credit.CreditApplication - Started CreditApplication in 2.621 seconds (process running for 3.352)
+2025-08-31 19:26:49.544 [http-nio-8083-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-31 19:26:49.545 [http-nio-8083-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-31 19:26:49.547 [http-nio-8083-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-08-31 19:26:49.701 [http-nio-8083-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-31 19:26:50.155 [http-nio-8083-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d428755
+2025-08-31 19:26:50.158 [http-nio-8083-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-31 21:17:14.761 [http-nio-8083-exec-4] ERROR c.r.credit.service.impl.SendCreditServiceImpl - type为credit, subType为null的奖励不存在
+2025-08-31 21:17:14.843 [http-nio-8083-exec-5] ERROR c.r.credit.service.impl.SendCreditServiceImpl - type为credit, subType为null的奖励不存在
+2025-08-31 21:17:16.388 [http-nio-8083-exec-6] ERROR c.r.credit.service.impl.SendCreditServiceImpl - type为credit, subType为null的奖励不存在
+2025-08-31 21:17:16.883 [http-nio-8083-exec-7] ERROR c.r.credit.service.impl.SendCreditServiceImpl - type为credit, subType为null的奖励不存在
+2025-08-31 21:17:18.911 [http-nio-8083-exec-8] ERROR c.r.credit.service.impl.SendCreditServiceImpl - type为credit, subType为null的奖励不存在
+2025-08-31 21:17:18.941 [http-nio-8083-exec-9] ERROR c.r.credit.service.impl.SendCreditServiceImpl - type为credit, subType为null的奖励不存在
+2025-08-31 21:17:20.972 [http-nio-8083-exec-10] ERROR c.r.credit.service.impl.SendCreditServiceImpl - type为credit, subType为null的奖励不存在
+2025-08-31 21:17:23.015 [http-nio-8083-exec-1] ERROR c.r.credit.service.impl.SendCreditServiceImpl - type为credit, subType为null的奖励不存在
+2025-08-31 21:51:29.675 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m37s242ms205µs500ns).
+2025-08-31 21:51:38.182 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-31 21:51:38.207 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-08-31 21:51:38.212 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-31 21:51:38.216 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-31 22:07:55.088 [main] INFO  com.reward_project.credit.CreditApplication - Starting CreditApplication using Java 22.0.2 with PID 2132 (D:\grad1\project\Credit\target\classes started by 12943 in D:\grad1\project\Credit)
+2025-08-31 22:07:55.091 [main] INFO  com.reward_project.credit.CreditApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-31 22:07:56.278 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-08-31 22:07:56.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2025-08-31 22:07:56.293 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-31 22:07:56.293 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-08-31 22:07:56.355 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-31 22:07:56.356 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1214 ms
+2025-08-31 22:07:57.223 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2025-08-31 22:07:57.256 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-08-31 22:07:57.266 [main] INFO  com.reward_project.credit.CreditApplication - Started CreditApplication in 2.818 seconds (process running for 3.617)
+2025-08-31 22:08:13.060 [http-nio-8083-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-31 22:08:13.061 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-31 22:08:13.062 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-31 22:08:13.163 [http-nio-8083-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-31 22:08:13.450 [http-nio-8083-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f4ccc56
+2025-08-31 22:08:13.452 [http-nio-8083-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-31 22:08:13.970 [http-nio-8083-exec-1] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-08-31_credit_credit01_1，已退还数量为1的credit
+2025-08-31 22:08:15.630 [http-nio-8083-exec-2] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-08-31_credit_credit01_1，已退还数量为1的credit
+2025-08-31 22:08:18.972 [http-nio-8083-exec-4] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-08-31_credit_credit01_2，已退还数量为1的credit
+2025-08-31 22:11:48.299 [http-nio-8083-exec-7] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-08-31_credit_credit01_1，已退还数量为1的credit
+2025-08-31 22:11:49.344 [http-nio-8083-exec-8] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-08-31_credit_credit01_1，已退还数量为1的credit
+2025-08-31 22:11:50.412 [http-nio-8083-exec-9] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-08-31_credit_credit01_1，已退还数量为1的credit
+2025-08-31 22:11:51.475 [http-nio-8083-exec-10] ERROR c.r.credit.service.impl.SendCreditServiceImpl - 发subType为credit01的credit失败，外部业务号为musicPlay_9_2025-08-31_credit_credit01_1，已退还数量为1的credit
+2025-08-31 22:28:26.550 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-31 22:28:26.573 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-08-31 22:28:26.576 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-31 22:28:26.583 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
